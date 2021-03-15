@@ -1,0 +1,26 @@
+// Основной файл конфигурации указанный в setting.json
+// и используемый для тестов - main.eslintrc.json
+{
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "htmlacademy/es6",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "rules": {
+    "no-console": 1,
+    "jsx-a11y/anchor-is-valid": 1,
+    "no-unused-vars": 1,
+    "object-curly-spacing": 1,
+    "quotes": 1,
+    "semi": 1,
+    "no-multi-spaces": 1,
+    "indent": 1,
+    "no-undef": 1,
+    "react/prop-types": 1,
+    "max-nested-callbacks": 1,
+    "no-mixed-spaces-and-tabs": 1,
+    "comma-spacing": 1
+  }
+}

@@ -1,0 +1,33 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.eslintcache
+
+# Testing
+/coverage
+
+# Production
+# Требование ТЗ
+# /build
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.idea
+# Настройки редактора не игнорируются из-за ошибок eslint (.eslintrc.json)
+#.vscode
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+npm-debug.*
+Thumbs.db
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

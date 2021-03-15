@@ -1,0 +1,164 @@
+.reviews {
+  position: relative;
+
+  margin: 10px 0 74px 3px;
+}
+
+.reviews__review {
+  padding: 20px 0 19px;
+
+  border-bottom: 1px solid var(--color-black-0-05, gray);
+}
+
+.reviews__review-author {
+  margin: 0;
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+
+  color: var(--color-black-1, black);
+}
+
+.reviews__review-advantages-title,
+.reviews__review-disadvantage-title,
+.reviews__review-comment-title {
+  margin: 14px 0 0;
+
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+
+  color: var(--color-black-0, black);
+
+  span {
+    margin-right: 7px;
+
+    color: var(--color-red-0, red);
+  }
+}
+
+.reviews__review-advantages-title {
+  margin-top: 13px;
+}
+
+.reviews__review-advantages,
+.reviews__review-disadvantage,
+.reviews__review-comment {
+  margin: 4px 0 0 19px;
+
+  font-size: 15px;
+  line-height: 20px;
+
+  color: var(--color-black-0, black);
+}
+
+.reviews__review-comment {
+  margin-left: 0;
+}
+
+.reviews__review-rate-wrapper {
+  display: flex;
+  align-items: flex-start;
+
+  margin-top: 21px;
+}
+
+.reviews__review-rate-point {
+  width: 17px;
+  height: 16px;
+  margin-right: 5px;
+  padding: 0;
+
+  background-color: transparent;
+
+  border: none;
+
+  &--active path {
+    fill: var(--color-red-0, red);
+  }
+}
+
+.reviews__review-rate-summary {
+  margin: 0 0 0 13px;
+
+  font-size: 15px;
+  line-height: 20px;
+
+  color: var(--color-red-0, red);
+}
+
+.reviews__review-output {
+  display: flex;
+  align-items: center;
+
+  margin-top: 26px;
+}
+
+.reviews__review-date {
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 19px;
+
+  color: var(--color-black-0, black);
+  opacity: 0.4;
+}
+
+.reviews__review-feedback {
+  margin: 0 0 0 27px;
+
+  font-size: 16px;
+  line-height: 22px;
+
+  color: var(--color-red-0, red);
+
+  outline: none;
+}
+
+.reviews__review-feedback:hover {
+  color: var(--color-gray-1, gray);
+}
+
+.reviews__review-feedback:focus:not(:hover) {
+  text-decoration: underline;
+}
+
+.reviews__review-feedback:active {
+  opacity: 0.2;
+}
+
+.reviews__add-button {
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  z-index: 2;
+
+  padding: 16px 18px 15px 20px;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--color-red-0, red);
+  background-color: transparent;
+
+  border: 1px solid var(--color-red-0, red);
+  outline: none;
+}
+
+.reviews__add-button:hover {
+  color: var(--color-white-0, white);
+  background-color: var(--color-red-0, red);
+}
+
+.reviews__add-button:focus:not(:hover) {
+  text-decoration: underline;
+}
+
+.reviews__add-button:active {
+  opacity: 0.2;
+}

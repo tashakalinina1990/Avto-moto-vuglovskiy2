@@ -1,0 +1,60 @@
+.contacts {
+  display: flex;
+  justify-content: space-between;
+
+  width: 779px;
+  padding: 10px 3px;
+  margin-bottom: 99px;
+}
+
+.contacts__info-wrapper {
+  width: 300px;
+}
+
+.contacts__address-title,
+.contacts__time-title,
+.contacts__phone-title,
+.contacts__email-title {
+  margin: 26px 0 0 0;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  align-items: center;
+
+  color: var(--color-black-2, black);
+}
+
+.contacts__address-title {
+  margin-top: 15px;
+}
+
+.contacts__address,
+.contacts__time,
+.contacts__phone,
+.contacts__email {
+  margin: 7px 0 0 0;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  align-items: center;
+
+  color: var(--color-black-0, black);
+}
+
+.contacts__address {
+  margin-top: 10px;
+}
+
+.contacts__map-wrapper {
+  flex-grow: 1;
+  max-width: 431px;
+  max-height: 271px;
+  margin-top: 20px;
+
+  background-image: url("../../../images/map.webp");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

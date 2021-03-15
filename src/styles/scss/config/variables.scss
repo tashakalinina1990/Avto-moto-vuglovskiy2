@@ -1,0 +1,30 @@
+$offset: 20px;
+$desktop-content: 1175px;
+$desktop: #{$offset * 2 + $desktop-content};
+$min-desktop: 1024px;
+
+$color-black-0: #000000;
+$color-black-1: #48494D;
+$color-black-3: #585757;
+$color-black-4: #48494C;
+
+:root {
+  --color-black-0: #{$color-black-0};
+  --color-black-0-05: rgba(#{hex-to-rgb($color-black-0)}, 0.5);
+  --color-black-1: #{$color-black-1};
+  --color-black-1-02: rgba(#{hex-to-rgb($color-black-1)}, 0.2);
+  --color-black-1-05: rgba(#{hex-to-rgb($color-black-1)}, 0.5);
+  --color-black-2: #1A212F;
+  --color-black-3: #{$color-black-3};
+  --color-black-3-06: rgba(#{hex-to-rgb($color-black-3)}, 0.6);
+  --color-black-3-08: rgba(#{hex-to-rgb($color-black-3)}, 0.8);
+  --color-black-4: #{$color-black-4};
+  --color-black-4-02: rgba(#{hex-to-rgb($color-black-4)}, 0.2);
+  --color-gray-0: #F5F5F9;
+  --color-gray-1: #D7D9DF;
+  --color-gray-2: #BDBEC2;
+  --color-white-0: #FFFFFF;
+  --color-red-0: #D12136;
+  --color-red-1: #BD0C21;
+  --color-red-2: #FF0000;
+}

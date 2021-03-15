@@ -1,0 +1,54 @@
+{
+  "name": "avto-moto",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "5.11.9",
+    "@testing-library/react": "11.2.5",
+    "@testing-library/user-event": "12.8.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-redux": "7.2.2",
+    "react-scripts": "4.0.3",
+    "redux": "4.0.5",
+    "redux-thunk": "2.3.0",
+    "web-vitals": "1.1.0"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint src/styles/**/*.{css,scss}",
+    "eslint": "eslint src/scripts/**/*.{js,jsx}",
+    "jest": "react-scripts test",
+    "jest:no-watch": "react-scripts test --watchAll=false",
+    "start": "react-scripts start",
+    "build": "react-scripts build && node ./preload.js",
+    "test": "npm run jest:no-watch && npm run stylelint && npm run editorconfig && npm run eslint",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "1.0.0",
+    "eslint-config-htmlacademy": "2.1.0",
+    "google-map-react": "2.1.9",
+    "node-sass": "5.0.0",
+    "pre-commit": "1.2.2",
+    "react-toastify": "7.0.3",
+    "redux-devtools-extension": "2.13.9",
+    "stylelint": "13.11.0",
+    "stylelint-config-htmlacademy": "0.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "pre-commit": [
+    "test",
+    "build"
+  ],
+  "editorconfig-cli": [
+    "*.json",
+    "src/**/*.{js,jsx,scss,css}",
+    "public/**/*.{html}"
+  ]
+}
